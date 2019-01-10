@@ -1,0 +1,20 @@
+Value	  		| Variable	    	|Description  
+Porites lobata	| name         		| The coral group's name
+blue	  		| color   			| The initial color
+  1.0     		| CI     			| Competition Index
+ 150.0	  		| maxIniRadius		| maximum radius (cm) of a coral when the simulation is initialized
+ 300.0	  		| maxRadius			| The maximum radius (cm) for a colony
+  11.6	  		| growthRate		| The initial radial growth rate (mm/year)
+  10	  		| coveredArea		| Percentage of covered Area (%)
+   8.0			| diamAtMaturity	| The diameter at which a colony is considered as mature (cm) 
+  1.5			| surfaceFactor		| The factor to adjust the real surface area of a hemispherical surface area
+1210 			| propagulesPerSqCm	| The number of propagules produced per cm²
+  0.0000000045	| retainFactor		| Determines how many recruits settle from a stock-recruitment relationship
+  0.1	  		| recRad			| The radius (cm) of recruit polyps on settling 
+   3  	  		| recFirst			| first month of recruitment as number
+  12	  		| recInterval		| Recruitment Interval (months)
+  0.00	  		| recNumberPerSqM	| Number of recruits per m² per recruitment event
+  29.9			| minBleachTemp		| The minimum temperature where corals become subject to bleaching
+  31			| maxBleachTemp		| The maximum temperature where all corals bleach
+  29.4			| minDeathTemp		| The minimum temperature from which the DeathProb is calculated from
+  32			| maxDeathTemp		| The maximum temperature where all corals die

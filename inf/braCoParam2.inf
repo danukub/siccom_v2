@@ -1,0 +1,23 @@
+Value	  				| Variable	    	|Description  
+Pocillopora damicornis	| name         		| The coral group's name
+cyan	  				| color   			| The initial color
+  1.0     				| CI     			| Competition Index
+ 30.0	  				| maxIniRadius		| maximum radius (cm) of a coral when the simulation is initialized
+ 30.0	  				| maxRadius			| The maximum radius (cm) for a colony
+  26.1	  				| growthRate		| The initial radial growth rate (mm/year) 
+  10	  				| coveredArea		| Percentage of covered Area (%)
+   7.0					| diamAtMaturity	| The diameter at which a colony is considered as mature (cm) 
+   3					| surfaceFactor		| The factor to adjust the real surface area of a hemispherical surface area
+  1.2					| propagulesPerSqCm	| The number of propagules produced per cm²
+  0.000001 	 			| retainFactor		| Determines how many recruits settle from a stock-recruitment relationship
+  0.2	  				| recRad			| The radius (cm) of recruit polyps on settling
+   1  	  				| recFirst			| first month of recruitment as number
+   1	  				| recInterval		| Recruitment Interval (months)
+  0.00 	  				| recNumberPerSqM	| Number of recruits per m² per recruitment event
+  30					| minBleachTemp		| The minimum temperature where corals become subject to bleaching
+  31					| maxBleachTemp		| The maximum temperature where all corals bleach  
+  21.5					| minDeathTemp		| The minimum temperature from which the DeathProb is calculated from
+  30.4					| maxDeathTemp		| The maximum temperature where all corals die
+  24	  				| numBranches		| Number of branches
+  5.0					| fragSize			| The size of a coral fragment in cm
+  5						| fragRange			| The radial range for a fragment where it settles in meters

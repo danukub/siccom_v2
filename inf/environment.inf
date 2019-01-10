@@ -1,0 +1,26 @@
+Value	  | Variable	   		|Description  
+4		  | disturbMaxSize1		|The maximum size of a disturbed area in meters
+2		  | disturbMinSize1		|The minimum size of a disturbed area in meters
+12  	  | disturbMeanInterval1|The mean interval between disturbance events in months
+10		  | disturbSDInterval1 	|The relative standard deviation of the mean disturbance interval
+1		  | disturbMaxNumber1	|The maximum number of simultaneous disturbance events
+10		  | disturbMaxSize2		|The maximum size of a disturbed area in meters
+5		  | disturbMinSize2		|The minimum size of a disturbed area in meters
+36  	  | disturbMeanInterval2|The mean interval between disturbance events in months
+10		  | disturbSDInterval2  |The relative standard deviation of the mean disturbance interval
+1		  | disturbMaxNumber2	|The maximum number of simultaneous disturbance events
+29.0	  | tempSumThreshold	|Threshold temperature from which on the fraction above is added to the temperature sum
+15 		  | bleachInterval		|The interval between bleaching events in years
+1.00	  | coralRecImportFactor|Allows to set the "connectivity" of the reef	
+0.001	  | breakageProb		|The probability for breakage of a single standing branching coral
+0.002	  | fragProb			|The probability for fragmenting
+75.0	  | dieOvergrowthMas	|Percentage of focal massive coral's covered area covered by other organism to kill the focal coral
+75.0	  | dieOvergrowthBra	|Percentage of focal massive coral's covered area covered by other organism to kill the focal coral
+0.18	  | grazingProb			|Herbivory: The monthly probability for an alga to be grazed
+7.5	  	  | iniAlgalThreshold   |The percentage of algal coverage on free space
+600	  	  | couplingTime		|The time step when grazing gets coupled up with rugosity
+1200	  | decouplingTime		|The time step when grazing gets decoupled from rugosity
+3.5	  	  | maxRugosity			|The maximum rugosity that the reef supplies
+1.75 	  | disturbThreshold	| The threshold from which on disturbance frequency increases
+10		  | disFreqIncrease		| The percentage by which the disturbance frequency increases per year
+1		  | turfResolution		|The width of a turf cell in meters
